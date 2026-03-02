@@ -353,7 +353,7 @@ window.addEventListener('load', function() {
     if (window.performance && window.performance.timing) {
         const perfData = window.performance.timing;
         const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
-        console.log('⏱️ Tempo de carregamento: ' + pageLoadTime + 'ms');
+        console.log('Tempo de carregamento: ' + pageLoadTime + 'ms');
     }
 });
 
@@ -381,4 +381,4 @@ if (backToTopBtn) {
     });
 }
 
-console.log('🛡️ PilarMauWare - Proteção inteligente para quem você ama');
+console.log('PilarMauWare - Proteção inteligente para quem você ama');
